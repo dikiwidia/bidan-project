@@ -1,5 +1,10 @@
 <script setup>
+import { computed } from "vue";
 import ItemFragment from "../Fragments/ItemFragment.vue";
+
+const currentYear = computed(() => {
+  return new Date().getFullYear();
+});
 </script>
 <template>
   <div class="bg-slate-100 h-screen">
@@ -57,9 +62,15 @@ import ItemFragment from "../Fragments/ItemFragment.vue";
           </button>
         </div>
       </div>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap py-4">
         <ItemFragment v-for="i in 100" key="i" />
       </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="flex items-center justify-center bg-pink-500">
+      <span class="text-sm font-medium text-pink-50 py-2">
+        Hak cipta &copy; {{ currentYear }} | Moch Diki Widianto
+      </span>
     </div>
   </div>
 </template>

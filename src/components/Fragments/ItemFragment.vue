@@ -1,12 +1,14 @@
 <template>
   <!-- ITEMS -->
-  <div class="p-2 w-1/4">
-    <div class="flex flex-col bg-white p-4 rounded-2xl shadow-md">
+  <div class="p-4 w-1/4">
+    <div
+      class="flex flex-col bg-white p-4 rounded-2xl shadow-md transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-2"
+    >
       <div class="flex">
         <div class="w-2/3">
           <p class="font-bold text-lg">Siti Aminah</p>
         </div>
-        <div class="flex justify-center w-1/3">
+        <div class="flex justify-end w-1/3">
           <span
             class="inline px-4 p-1 bg-pink-300 rounded-full font-bold text-pink-50 text-sm"
             >Hipertensi</span
@@ -26,6 +28,13 @@
           <p class="text-sm text-slate-400">Sisa Waktu</p>
           <p class="text-md font-bold text-rose-500">467 hari yang lalu</p>
         </div>
+      </div>
+      <div class="px-2 py-4">
+        <button
+          class="text-pink-700 bg-pink-200 w-full p-2 font-medium text-sm cursor-pointer rounded hover:bg-pink-300 hover:shadow"
+        >
+          Lihat Detail
+        </button>
       </div>
     </div>
   </div>
