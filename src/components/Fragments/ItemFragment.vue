@@ -1,8 +1,8 @@
 <template>
   <!-- ITEMS -->
-  <div class="p-4 w-1/4">
+  <div class="py-2 md:p-4 md:w-1/2 lg:w-1/4 w-full">
     <div
-      class="flex flex-col bg-white p-4 rounded-2xl shadow-md transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-2"
+      class="flex flex-col bg-white p-4 rounded-xl md:rounded-2xl shadow-md transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-2"
     >
       <div class="flex">
         <div class="w-2/3">

@@ -31,6 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:4.1.11"],\
           ["@vitejs/plugin-vue", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:6.0.0"],\
           ["gh-pages", "npm:6.3.0"],\
+          ["oh-vue-icons", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:1.0.0-rc3"],\
           ["project-bumil", "workspace:."],\
           ["tailwindcss", "npm:4.1.11"],\
           ["vite", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:7.0.0"],\
@@ -2125,6 +2126,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["oh-vue-icons", [\
+      ["npm:1.0.0-rc3", {\
+        "packageLocation": "../../.yarn/berry/cache/oh-vue-icons-npm-1.0.0-rc3-3c9530851b-10c0.zip/node_modules/oh-vue-icons/",\
+        "packageDependencies": [\
+          ["oh-vue-icons", "npm:1.0.0-rc3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:1.0.0-rc3", {\
+        "packageLocation": "./.yarn/__virtual__/oh-vue-icons-virtual-94c05838ba/3/.yarn/berry/cache/oh-vue-icons-npm-1.0.0-rc3-3c9530851b-10c0.zip/node_modules/oh-vue-icons/",\
+        "packageDependencies": [\
+          ["@types/vue", null],\
+          ["@types/vue__composition-api", null],\
+          ["@vue/composition-api", null],\
+          ["oh-vue-icons", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:1.0.0-rc3"],\
+          ["vue", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:3.5.17"],\
+          ["vue-demi", "virtual:94c05838baea386dd2fc2fd462e0624b07db2a4b7b2b7d78c7e4e7a34ce5d29b74667d504abe2655a88ab93c7150065f1f6e3b98b9ca055a18fdcbb992d0dc3b#npm:0.12.5"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "@types/vue__composition-api",\
+          "@vue/composition-api",\
+          "vue"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["p-limit", [\
       ["npm:2.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/p-limit-npm-2.3.0-94a0310039-10c0.zip/node_modules/p-limit/",\
@@ -2273,6 +2301,7 @@ const RAW_RUNTIME_STATE =
           ["@tailwindcss/vite", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:4.1.11"],\
           ["@vitejs/plugin-vue", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:6.0.0"],\
           ["gh-pages", "npm:6.3.0"],\
+          ["oh-vue-icons", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:1.0.0-rc3"],\
           ["project-bumil", "workspace:."],\
           ["tailwindcss", "npm:4.1.11"],\
           ["vite", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:7.0.0"],\
@@ -2725,6 +2754,32 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/typescript",\
           "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["vue-demi", [\
+      ["npm:0.12.5", {\
+        "packageLocation": "./.yarn/unplugged/vue-demi-virtual-30d79ae1c1/node_modules/vue-demi/",\
+        "packageDependencies": [\
+          ["vue-demi", "npm:0.12.5"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:94c05838baea386dd2fc2fd462e0624b07db2a4b7b2b7d78c7e4e7a34ce5d29b74667d504abe2655a88ab93c7150065f1f6e3b98b9ca055a18fdcbb992d0dc3b#npm:0.12.5", {\
+        "packageLocation": "./.yarn/unplugged/vue-demi-virtual-30d79ae1c1/node_modules/vue-demi/",\
+        "packageDependencies": [\
+          ["@types/vue", null],\
+          ["@types/vue__composition-api", null],\
+          ["@vue/composition-api", null],\
+          ["vue", "virtual:ebc3cf00767fe69c891c3fba03eb52d8ed0944769ca0813a2297d02c75ffd02c0f212d1e8f8f7b2ccd452f22e3d28c573cb999682a5ab970608b1856f7f02695#npm:3.5.17"],\
+          ["vue-demi", "virtual:94c05838baea386dd2fc2fd462e0624b07db2a4b7b2b7d78c7e4e7a34ce5d29b74667d504abe2655a88ab93c7150065f1f6e3b98b9ca055a18fdcbb992d0dc3b#npm:0.12.5"]\
+        ],\
+        "packagePeers": [\
+          "@types/vue",\
+          "@types/vue__composition-api",\
+          "@vue/composition-api",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
